@@ -13,3 +13,14 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+x = 1  #int 
+v = 2.5 #float 
+name = 'john'  #Str
+isTrue = True #book 
+
+#Multiple Assignment 
+x,y,name, is_cool = (1,2.5, 'John', True)
+print(x) 
+x = str(x)
+y= int(y)
+print(type(y), y)
